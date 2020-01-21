@@ -74,7 +74,7 @@ class LinkedList:
 		else:
 			temp = self.start
 			self.start = self.start.next
-			print("Start Node: {} successfully deleted".format())
+			print("Start Node successfully deleted")
 			
 	def removeLast(self):
 		if self.start == None:
